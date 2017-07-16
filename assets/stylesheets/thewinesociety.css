@@ -1,0 +1,17 @@
+aside.onebox.thewinesociety .source {
+  background: url(/assets/images/tws-logo.png) no-repeat;
+  background-size: 16px 16px;
+  padding-left: 20px;
+}
+aside.onebox.thewinesociety img.thumbnail { margin-bottom: 8px }
+aside.onebox.thewinesociety article .product-meta {
+  display: inline-block;
+  margin: 0;
+}
+aside.onebox.thewinesociety article .priceline { margin: 0 }
+aside.onebox.thewinesociety article .last-updated {
+  color: #888;
+  font-size: 0.9em;
+  font-style: italic;
+  margin: 0;
+}
