@@ -1,0 +1,14 @@
+*~
+\.\#*
+*.gem
+/.bundle/
+/.ruby-version
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/coverage/
+/doc/
+/rdoc/
+/test/tmp
+/tmp/
+/vendor/bundle
