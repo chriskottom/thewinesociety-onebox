@@ -19,22 +19,6 @@ module Onebox
       matches_regexp(%r{^https://www\.thewinesociety\.com/shop/[Pp]roduct[Dd]etail\.aspx\?})
       always_https
 
-      # def to_html
-      #   d = data
-      #   <<~HTML
-      #     <img src='#{ d[:image] }' class='thumbnail' />
-      #     <h3><a href='#{ d[:link] }' target='_blank'>#{ d[:title] }</a></h3>
-      #     <p class='description'>#{ d[:description] }</p>
-      #     <div class='product-meta'>
-      #       <p class='priceline'>
-      #         <strong><span class='price'>#{ d[:price] }</span></strong>
-      #         <span class='unit'>#{ d[:unit] }</span>
-      #       </p>
-      #       <p class='last-updated'>Details correct as at: #{ d[:last_updated] }</p>
-      #     </div>
-      #   HTML
-      # end
-
       private
 
       def image
