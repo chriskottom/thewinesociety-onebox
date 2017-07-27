@@ -14,10 +14,11 @@ module Onebox
       include HTML
 
       # Example product URLs:
+      # http://www.thewinesociety.com/shop/ProductDetail.aspx?...
+      # http://www.thewinesociety.com/shop/productdetail.aspx?...
       # https://www.thewinesociety.com/shop/ProductDetail.aspx?...
       # https://www.thewinesociety.com/shop/productdetail.aspx?...
-      matches_regexp(%r{^https://www\.thewinesociety\.com/shop/[Pp]roduct[Dd]etail\.aspx\?})
-      always_https
+      matches_regexp(%r{^https?://www\.thewinesociety\.com/shop/[Pp]roduct[Dd]etail\.aspx\?})
 
       private
 
