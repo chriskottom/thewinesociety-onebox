@@ -12,4 +12,5 @@ register_asset 'images/tws-logo.png'
 register_asset 'stylesheets/thewinesociety.css'
 
 require_relative './lib/onebox/helpers.rb'
+require_relative './lib/onebox/engine/the_wine_society_engine.rb'
 require_relative './lib/onebox/engine/thewinesociety_onebox.rb'
