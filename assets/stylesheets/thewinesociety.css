@@ -1,15 +1,24 @@
-aside.onebox.thewinesociety .source {
+aside.onebox.thewinesociety .source,
+aside.onebox.thewinesocietyhistoric .source {
   background: url(/plugins/thewinesociety-onebox/images/tws-logo.png) no-repeat;
   background-size: 16px 16px;
   padding-left: 20px;
 }
-aside.onebox.thewinesociety img.thumbnail { margin-bottom: 8px }
-aside.onebox.thewinesociety article .product-meta {
+aside.onebox.thewinesociety img.thumbnail,
+aside.onebox.thewinesocietyhistoric img.thumbnail {
+  margin-bottom: 8px
+}
+aside.onebox.thewinesociety article .product-meta,
+aside.onebox.thewinesocietyhistoric article .product-meta {
   display: inline-block;
   margin: 0;
 }
-aside.onebox.thewinesociety article .priceline { margin: 0 }
-aside.onebox.thewinesociety article .last-updated {
+aside.onebox.thewinesociety article .priceline,
+aside.onebox.thewinesocietyhistoric article .priceline {
+  margin: 0
+}
+aside.onebox.thewinesociety article .last-updated,
+aside.onebox.thewinesocietyhistoric article .last-updated {
   color: #888;
   font-size: 0.9em;
   font-style: italic;
