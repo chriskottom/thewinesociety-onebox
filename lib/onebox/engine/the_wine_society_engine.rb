@@ -89,9 +89,9 @@ module Onebox
 
       def last_updated(timestamp = nil)
         if timestamp
-          DateTime.parse(timestamp).strftime('%d/%m/%Y %H:%M:%S')
+          DateTime.parse(timestamp).strftime('%d/%m/%Y %H:%M')
         else
-          DateTime.now.strftime('%d/%m/%Y %H:%M:%S')
+          DateTime.now.strftime('%d/%m/%Y %H:%M')
         end
       end
     end
