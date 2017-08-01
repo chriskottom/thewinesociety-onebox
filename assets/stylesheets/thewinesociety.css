@@ -17,6 +17,12 @@ aside.onebox.thewinesociety article .priceline,
 aside.onebox.thewinesocietyhistoric article .priceline {
   margin: 0
 }
+aside.onebox.thewinesocietyhistoric article .priceline {
+  background: url(/plugins/thewinesociety-onebox/images/no_price_gbp.png) no-repeat;
+  background-size: 15px 15px;
+  background-position-y: center;
+  padding-left: 20px;
+}
 aside.onebox.thewinesociety article .last-updated,
 aside.onebox.thewinesocietyhistoric article .last-updated {
   color: #888;

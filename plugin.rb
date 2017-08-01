@@ -9,6 +9,7 @@ Onebox.options.load_paths << File.join(File.dirname(__FILE__), 'templates')
 gem 'money', '6.9.0'
 
 register_asset 'images/tws-logo.png'
+register_asset 'images/no_price_gbp.png'
 register_asset 'stylesheets/thewinesociety.css'
 
 require_relative './lib/onebox/helpers.rb'
