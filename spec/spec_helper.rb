@@ -3,7 +3,7 @@ require 'fakeweb'
 require 'onebox'
 require 'mocha/api'
 
-$: << File.join(File.dirname(__FILE__), '/../gems/2.3.1/gems/money-6.9.0/lib')
+$: << File.join(File.dirname(__FILE__), '/../gems/2.3.1/gems/money-6.12.0/lib')
 require 'money'
 
 $: << File.join(File.dirname(__FILE__), '/../lib')
