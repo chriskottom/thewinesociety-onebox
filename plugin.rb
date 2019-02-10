@@ -6,7 +6,7 @@
 
 Onebox.options.load_paths << File.join(File.dirname(__FILE__), 'templates')
 
-gem 'money', '6.12.0'
+gem 'money', '6.13.2'
 
 register_asset 'images/tws-logo.png'
 register_asset 'images/no_price_gbp.png'
